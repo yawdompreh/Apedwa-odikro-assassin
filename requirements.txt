@@ -1,0 +1,18 @@
+# Stock Analyzer dependencies
+# Install with: pip install -r requirements.txt
+
+# Data providers
+yfinance>=0.2.36
+
+# Sentiment analysis (VADER – no API key required)
+vaderSentiment>=3.3.2
+
+# Web framework
+flask>=3.0.0
+
+# HTTP requests (Wikidata SPARQL + GNews)
+requests>=2.31.0
+
+# Numerical computing
+numpy>=1.26.0
+pandas>=2.1.0
